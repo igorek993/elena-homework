@@ -10,19 +10,14 @@ radius = 42
 #       пи возьмите равным 3.1415926
 #       точность указывается в функции round()
 
-# возведение в степень
-print(42**2)
-round(5541.7693464)
-round(42**3.1415926)
+pi = 3.1415926
+radius_squared = radius ** 2
+area_of_circle = pi*radius_squared
+print("Area of circle is ", area_of_circle)
+y=round(5541.7693464,4)
+print("Circle area after rounding is ", y)
 
 #согласно формуле S=pi*(42**2) S=5541.7693464 это и есть площадь искомого круга.
-
-x=round(5541.7693464)
-round(x, 4)
-print(round(5541.7693464,4))
-y=round(5541.7693464,4)
-print(y)
-
 #согласно формуле S=pi*(42**2) площадь искомого круга после округления составляет S=5541.7693
 
 
