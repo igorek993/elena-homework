@@ -15,7 +15,7 @@ radius_squared = radius ** 2
 area_of_circle = pi*radius_squared
 print("Area of circle is ", area_of_circle)
 y=round(5541.7693464,4)
-print("Circle area after rounding is ", y)
+print(y)
 
 #согласно формуле S=pi*(42**2) S=5541.7693464 это и есть площадь искомого круга.
 #согласно формуле S=pi*(42**2) площадь искомого круга после округления составляет S=5541.7693
