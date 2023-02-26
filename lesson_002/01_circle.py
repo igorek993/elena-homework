@@ -13,7 +13,6 @@ radius = 42
 pi = 3.1415926
 radius_squared = radius ** 2
 area_of_circle = pi*radius_squared
-print("Area of circle is ", area_of_circle)
 rounded_circle_area =round(area_of_circle,4)
 print("The area of the desired circle is",rounded_circle_area)
 
