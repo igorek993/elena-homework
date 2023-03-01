@@ -13,7 +13,7 @@ my_family_height = [['igor', 178], ['alice',60 ], ['elena',164]]
 igor_height= 178
 alice_height= 60
 elena_height= 164
-print(igor_height , 'cm is my husbands height')
+print('my husbands height is', igor_height, 'cm')
 
     # ['имя', рост],
 # Выведите на консоль рост отца в формате
@@ -22,4 +22,4 @@ print(igor_height , 'cm is my husbands height')
 # Выведите на консоль общий рост вашей семьи как сумму ростов всех членов
 #   Общий рост моей семьи - ХХ см
 
-print(igor_height+alice_height+elena_height,'cm is my familys height')
+print('my familys height is', igor_height+alice_height+elena_height ,'cm')
