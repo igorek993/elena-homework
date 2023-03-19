@@ -26,5 +26,6 @@ print('fathers height is -',fathers_height,'cm')
 igors_height= my_family_height[0][1]
 alices_height=my_family_height[1][1]
 elenas_height=my_family_height[2][1]
-print('total family height - ', igors_height+alices_height+elenas_height,'cm')
+fh=igors_height + alices_height + elenas_height
+print('total family height - ', fh,'cm')
 
