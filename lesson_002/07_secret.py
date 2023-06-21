@@ -31,7 +31,9 @@ a1=secret_message[1][10:13]
 a2=secret_message[2][5:15:2]
 a3=secret_message[3][12:6:-1]
 a4=secret_message[4][20:15:-1]
-print(a,a1,a2,a3,a4)
+s=a+a1
+print(s,a2,a3,a4)
+
 
 
 
