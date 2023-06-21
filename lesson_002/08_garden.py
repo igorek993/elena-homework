@@ -8,18 +8,17 @@ garden = ('ромашка', 'роза', 'одуванчик', 'ромашка', 
 meadow = ('клевер', 'одуванчик', 'ромашка', 'клевер', 'мак', 'одуванчик', 'ромашка', )
 
 # создайте множество цветов, произрастающих в саду и на лугу
-# garden_set =
-# meadow_set =
-garden_set=garden
-meadow_set=meadow
-a=garden_set
-b=meadow_set
+garden_set = tuple(set(garden))
+print(garden_set)
+meadow_set = tuple(set(meadow))
+print(meadow_set)
 # выведите на консоль все виды цветов
-all_flowers =a,b
-print('все виды цветов', all_flowers)
+
+all_flowers = garden, meadow
+print('все виды цветов', garden+meadow)
 
 # выведите на консоль те, которые растут и там и там
-flowers_list=['ромашка,роза,одуванчик,гладиолус,подсолнух,клевер,мак']
+flowers_list=a[0][1:5]
 grow_everywhere= flowers_list
 print('те которые растут там и там',flowers_list)
 
