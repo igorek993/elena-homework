@@ -14,11 +14,11 @@ meadow_set = tuple(set(meadow))
 print(meadow_set)
 # выведите на консоль все виды цветов
 
-all_flowers = garden, meadow
-print('все виды цветов', garden+meadow)
+all_flowers = tuple(set(garden_set+meadow_set))
+print('все виды цветов', all_flowers)
 
 # выведите на консоль те, которые растут и там и там
-flowers_list=a[0][1:5]
+flowers_list=[0][1:5]
 grow_everywhere= flowers_list
 print('те которые растут там и там',flowers_list)
 
