@@ -26,12 +26,14 @@ secret_message = [
 #   Требуется задать конкретные индексы, например secret_message[3][12:23:4]
 #   Если нужны вычисления и разные пробы - делайте это в консоли пайтона, тут нужен только результат
 
-a=secret_message[0][4]
-a1=secret_message[1][10:13]
-a2=secret_message[2][5:15:2]
-a3=secret_message[3][12:6:-1]
-a4=secret_message[4][20:15:-1]
-print(a,a1,a2,a3,a4)
+first_symbol=secret_message[0][4]
+second_symbol=secret_message[1][10:13]
+second_word=secret_message[2][5:15:2]
+third_word=secret_message[3][12:6:-1]
+fifth_word=secret_message[4][20:15:-1]
+s= first_symbol+second_symbol
+print(s,second_word,third_word,fifth_word)
+
 
 
 
