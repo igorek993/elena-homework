@@ -23,7 +23,10 @@ print(zoo)
 # выведите на консоль в какой клетке сидит лев (lion) и жаворонок (lark).
 # Номера при выводе должны быть понятны простому человеку, не программисту.
 zoo_cells = zoo+birds
-print('лев сидит в', (zoo_cells.index('lion')+1),'й клетке')
-print('жаворонок сидит в',(zoo_cells.index('lark')),'й клетке')
+lion=zoo_cells.index('lion')+1
+lark=zoo_cells.index('lark')
+
+print('лев сидит в', lion,'й клетке')
+print('жаворонок сидит в',lark,'й клетке')
 
 
