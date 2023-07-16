@@ -1,10 +1,5 @@
-x=round(5541.7693464)
-round(x, 4)
-print(round(5541.7693464,4))
-y=round(5541.7693464,4)
-print(y)
-
-
-
-round(5541.7693464,4)
-print("Circle area after rounding is ", y)
+first_list = ["world", 10, 11.2]
+first_word = first_list[0]
+second_word = "hello"
+total_value = second_word + ' ' + first_word
+print(total_value)
